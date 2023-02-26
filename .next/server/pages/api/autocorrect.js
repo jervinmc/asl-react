@@ -88,38 +88,31 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = "./pages/api/autocorrect.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 2:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("ILHt");
-
-
-/***/ }),
-
-/***/ "ILHt":
+/***/ "./pages/api/autocorrect.js":
+/*!**********************************!*\
+  !*** ./pages/api/autocorrect.js ***!
+  \**********************************/
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-const autocorrect = __webpack_require__("afVY")();
-
-/* harmony default export */ __webpack_exports__["default"] = ((req, res) => {
-  res.status(200).json({
-    correctedWord: autocorrect(req.query.word.toLowerCase())
-  });
-});
+eval("__webpack_require__.r(__webpack_exports__);\nconst autocorrect = __webpack_require__(/*! autocorrect */ \"autocorrect\")();\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ((req, res) => {\n  res.status(200).json({\n    correctedWord: autocorrect(req.query.word.toLowerCase())\n  });\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWdlcy9hcGkvYXV0b2NvcnJlY3QuanM/MjBiMSJdLCJuYW1lcyI6WyJhdXRvY29ycmVjdCIsInJlcXVpcmUiLCJyZXEiLCJyZXMiLCJzdGF0dXMiLCJqc29uIiwiY29ycmVjdGVkV29yZCIsInF1ZXJ5Iiwid29yZCIsInRvTG93ZXJDYXNlIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUFBLE1BQU1BLFdBQVcsR0FBR0MsbUJBQU8sQ0FBQyxnQ0FBRCxDQUFQLEVBQXBCOztBQUVlLGdFQUFDQyxHQUFELEVBQU1DLEdBQU4sS0FBYztBQUMzQkEsS0FBRyxDQUNBQyxNQURILENBQ1UsR0FEVixFQUVHQyxJQUZILENBRVE7QUFBRUMsaUJBQWEsRUFBRU4sV0FBVyxDQUFDRSxHQUFHLENBQUNLLEtBQUosQ0FBVUMsSUFBVixDQUFlQyxXQUFmLEVBQUQ7QUFBNUIsR0FGUjtBQUdELENBSkQiLCJmaWxlIjoiLi9wYWdlcy9hcGkvYXV0b2NvcnJlY3QuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBhdXRvY29ycmVjdCA9IHJlcXVpcmUoJ2F1dG9jb3JyZWN0JykoKTtcblxuZXhwb3J0IGRlZmF1bHQgKHJlcSwgcmVzKSA9PiB7XG4gIHJlc1xuICAgIC5zdGF0dXMoMjAwKVxuICAgIC5qc29uKHsgY29ycmVjdGVkV29yZDogYXV0b2NvcnJlY3QocmVxLnF1ZXJ5LndvcmQudG9Mb3dlckNhc2UoKSkgfSk7XG59O1xuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/api/autocorrect.js\n");
 
 /***/ }),
 
-/***/ "afVY":
+/***/ "autocorrect":
+/*!******************************!*\
+  !*** external "autocorrect" ***!
+  \******************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("autocorrect");
+eval("module.exports = require(\"autocorrect\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJhdXRvY29ycmVjdFwiP2IxN2MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoiYXV0b2NvcnJlY3QuanMiLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJhdXRvY29ycmVjdFwiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///autocorrect\n");
 
 /***/ })
 

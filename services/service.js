@@ -17,7 +17,7 @@ class CV {
         } else if (status[0] === 'error') rej(status[1]);
         else if (status[0] !== 'loading') {
           delete this._status[msg];
-          clearInterval(interval);
+          // clearInterval(interval);
         }
       }, 0);
     });
